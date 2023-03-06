@@ -1,0 +1,55 @@
+.empieza{
+    color: white;
+    margin: 3em;
+	font-size: 1.5em;
+    cursor: pointer;
+    padding: 12px 40px;
+    border-radius: .2em;
+    background-color: #0A66C2;
+}
+.empieza:hover{
+    background-color: #0e71d4;
+}
+.empieza a{
+	color:white
+}
+.head-section{
+    height: 600px;
+    justify-content: center;
+    background:linear-gradient(rgba(#1f1f38,1),rgba(#1f1f38,0.7), rgba(#1f1f38,0.6)), url("../../assets/tiktok-bg.jpg") ;
+    background-size: cover;
+}
+.head-title {
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+@media (width< 515px) {
+    .head-title {
+        align-items: center;
+        flex-direction: column;
+    }
+}
+.description{
+    text-align: center;
+}
+.description h1{
+    color: var(--color-primary);
+    text-align: center;
+}
+.description h2{
+	font-size: 40px;
+}
+@media (max-width:443.2px){
+.description h2{
+    margin-top:100px;
+}
+}
+.description h3{
+    font-weight: 200 ;
+}
+.description h4{
+    font-weight: 200 ;
+}
+

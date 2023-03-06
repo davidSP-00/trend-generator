@@ -1,0 +1,22 @@
+.section-footer{
+    margin: 1.3em 2em;
+    font-size: 12px;
+    font-weight: 300;
+    color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: space-between;
+}
+.section-footer i{
+    color: var(--color-primary);
+}
+
+
+.section-footer img{
+height: 25px;
+filter: brightness(100);
+}
+@media (width< 880px) {
+    .section-footer{
+        text-align: center;
+    }
+}

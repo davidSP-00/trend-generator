@@ -1,0 +1,66 @@
+.form{
+display: flex;
+flex-direction: column;
+
+}
+.form input{
+    max-width: 500px;
+    width: 50%;
+    align-self: center;
+    background-color: var(--color-primary-variant);
+    border: 2px solid var(--color-primary-2) ;
+    height:30px;
+    padding: 5px;
+    color: white;
+    border-radius:5px;
+}
+.form input[type="file"]{
+display: none;
+}
+.form h4{
+    font-weight: 400;
+    margin: 15px 5px 5px 5px;
+
+}
+.form h4 span{
+    font-weight: 200;
+    font-size: 10px;
+
+}
+.form h5{
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+.form label{
+    font-size: 12px;
+    background-color: var( --color-primary-variant);
+    align-self: center;
+    width: 200px;
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form .send{
+    color: white;
+    align-self: center;
+    margin-top: 1em;
+	font-size: 1.1em;
+    margin-bottom: 2em;
+    cursor: pointer;
+    width: 300px;
+    padding: 12px 20px;
+    border-radius: .2em;
+    background-color: #0A66C2;
+}
+.send:hover{
+    background-color: #0e71d4;
+}
+.send:disabled
+{
+    background-color: #06407a;
+color:gray;
+pointer-events: none;
+cursor:initial;
+}

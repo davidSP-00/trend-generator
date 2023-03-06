@@ -1,0 +1,33 @@
+.header-total{
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(31,31,56, 0.6);
+    z-index:1000;
+}
+.header-color{
+    color: var(--color-primary);
+}
+.david{
+    margin-right: 0.5em;
+    color: var(--color-primary-variant);
+}
+.logo{
+    display: flex;
+    padding: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+.menu a{
+    margin: 15px 15px;
+    font-weight: 400;
+    color :white;
+    &:hover{
+        color:var(--color-primary);
+    }
+}
+@media(max-width:530px){
+    .menu{
+        display: none;
+    }
+}

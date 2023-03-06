@@ -1,0 +1,51 @@
+.generation-section{
+    min-height: 30vh;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--color-bg);
+}
+.generation-section h2{
+    font-size: 1.8em;
+    text-decoration: underline;
+text-decoration-thickness: 3px;
+text-decoration-color: var(--color-primary);
+margin: 40px 0px 40px 0px;
+}
+.container-who{
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.container-who .gen{
+    max-width: 400px;
+/*    margin: 20px; */
+   text-align: left;
+}
+.container-who .gen h3{
+    margin-bottom: 10px;
+}
+.gen .icon{
+    font-size: 50px;
+    background-color: var(--color-primary-variant);
+    align-items: center;
+    justify-content:center;
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    color: rgb(236, 236, 236);
+}
+.gen .text{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(236, 236, 236);
+    line-height: 40px;
+}
+.gen .icon i:hover{
+   color:red;
+   animation:icon-cre 0.5s  both;
+}
+
+@keyframes icon-cre {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.2);}
+  }
