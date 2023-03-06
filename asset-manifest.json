@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/trend-generator/static/css/main.fecf5949.css",
-    "main.js": "/trend-generator/static/js/main.1fbd3872.js",
+    "main.js": "/trend-generator/static/js/main.d1fec7f3.js",
     "static/js/787.4897c3ad.chunk.js": "/trend-generator/static/js/787.4897c3ad.chunk.js",
     "static/media/tiktok-bg.jpg": "/trend-generator/static/media/tiktok-bg.4f19e2e5512be786dc38.jpg",
     "static/media/logo.png": "/trend-generator/static/media/logo.339fa091e96b58d20be4.png",
     "index.html": "/trend-generator/index.html",
     "main.fecf5949.css.map": "/trend-generator/static/css/main.fecf5949.css.map",
-    "main.1fbd3872.js.map": "/trend-generator/static/js/main.1fbd3872.js.map",
+    "main.d1fec7f3.js.map": "/trend-generator/static/js/main.d1fec7f3.js.map",
     "787.4897c3ad.chunk.js.map": "/trend-generator/static/js/787.4897c3ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fecf5949.css",
-    "static/js/main.1fbd3872.js"
+    "static/js/main.d1fec7f3.js"
   ]
 }
