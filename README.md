@@ -5,7 +5,7 @@ Are you looking to create exciting and viral content for your TikTok account? Do
 
 ## 📎 Try it
 
-In this link you will try the web [here](https://trendgenerator.com)
+In this link you will try the web [here](https://davidsp-00.github.io/trend-generator/)
 
 # Deploying
 ### Getting Started with Create React App
